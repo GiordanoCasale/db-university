@@ -17,3 +17,7 @@ Cosa consegnare?
 Dopo aver testato le vostre query con MySQL Workbench, riportatele in un file txt e caricatelo nella vostra repo.
 SQL
  
+
+
+ traccia esercizio del 27/05/2025
+ Utilizzando lo stesso database di ieri, eseguite le query in allegato. Caricate un secondo file nella stessa repo di ieri (db-university) con le query di oggi.
