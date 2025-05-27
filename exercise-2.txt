@@ -1234,3 +1234,35 @@ Corso di Laurea in Ingegneria Elettronica	officia dolor a	Erminia	Gatti
 Corso di Laurea in Fisioterapia	officia nam pariatur	Erminia	Gatti
 Corso di Laurea in Tecniche di Neurofisiopatologia	illum est ea	Erminia	Gatti
 
+
+
+
+ESERCIZIO 6,SELECT teachers.* 
+FROM teachers
+JOIN course_teacher ON teachers.id = course_teacher.teacher_id
+JOIN courses ON course_teacher.course_id = courses.id
+JOIN degrees ON courses.degree_id = degrees.id
+JOIN departments ON degrees.department_id = departments.id
+WHERE departments.name = 'Dipartimento di Matematica';:
+98	Cristyn	Martinelli		nicoletta67@longo.com	Contrada Amato 58 Piano 2	1
+51	Folco	Piras		gregorio.valentini@gmail.com	Strada Neri 577	107
+78	Kristel	Bellini		lamberto29@palmieri.org	Strada Concetta 6	91
+25	Concetta	Bianchi	+58 211 72300216	giobbe99@libero.it	Strada Kociss 997 Piano 8	124
+13	Tosca	Donati	+97 9502 52491933	marco26@yahoo.it	Rotonda Martinelli 309	119
+73	Elda	Bruno	+62 35 8488435	diamante.monti@battaglia.it	Piazza Ferretti 619	101
+45	Eusebio	Pellegrini	+16 76 8795400	prisca.giuliani@santoro.com	Borgo Elio 234 Piano 4	106
+19	Ione	Mariani		qriva@amato.com	Strada Neri 577	76
+92	Mariagiulia	Guerra	+39 314 686 094	leone07@desantis.net	Rotonda Carmela 10 Piano 1	33
+67	Ivonne	Neri	+61 72 18587184	sorrentino.violante@hotmail.com	Via Elga 7 Piano 4	138
+38	Rufo	Morelli		zelida16@email.it	Piazza Pellegrino 613 Piano 8	161
+87	Gianantonio	Monti	+39 076 918 693	mariagiulia.riva@gmail.com	Contrada Amato 58 Piano 2	112
+33	Cassiopea	Valentini		romeo94@battaglia.it	Contrada Rita 5 Appartamento 71	21
+89	Piererminio	Greco		gaetano.barone@yahoo.it	Via Mariano 48	129
+10	Maria	Esposito	+30 91 02098027	caruso.davide@yahoo.it	Strada Vitali 8 Piano 0	128
+68	Cleopatra	Rinaldi	394 643 755	uvitale@silvestri.it	Rotonda Carmela 10 Piano 1	104
+28	Rudy	Fontana		lombardo.nestore@colombo.it	Piazza Aroldo 8 Appartamento 85	110
+98	Cristyn	Martinelli		nicoletta67@longo.com	Contrada Amato 58 Piano 2	1
+13	Tosca	Donati	+97 9502 52491933	marco26@yahoo.it	Rotonda Martinelli 309	119
+14	Pericle	Rossetti	343 467 240	diana94@hotmail.com	Borgo Demis 1	11
+
+
