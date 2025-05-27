@@ -1159,3 +1159,19 @@ JOIN departments ON degrees.department_id = departments.id
 WHERE departments.name = 'Dipartimento di Neuroscienze' 
 AND degrees.level = 'magistrale';:
 44	7	Corso di Laurea Magistrale in Odontoiatria e Protesi Dentaria	magistrale	Via Mariani 185	odontoiatria-e-protesi-dentaria@uni.it	www.odontoiatria-e-protesi-dentaria.uni.it
+
+ESERCIZIO 3, SELECT *
+FROM `teachers`
+JOIN `course_teacher`ON `teacher_id`= `teachers`.`id`
+WHERE `teachers`.`id`= 44:
+44	Fulvio	Amato		ubianco@bellini.com	Strada Lombardi 855	78	23	44
+44	Fulvio	Amato		ubianco@bellini.com	Strada Lombardi 855	78	155	44
+44	Fulvio	Amato		ubianco@bellini.com	Strada Lombardi 855	78	170	44
+44	Fulvio	Amato		ubianco@bellini.com	Strada Lombardi 855	78	251	44
+44	Fulvio	Amato		ubianco@bellini.com	Strada Lombardi 855	78	489	44
+44	Fulvio	Amato		ubianco@bellini.com	Strada Lombardi 855	78	601	44
+44	Fulvio	Amato		ubianco@bellini.com	Strada Lombardi 855	78	725	44
+44	Fulvio	Amato		ubianco@bellini.com	Strada Lombardi 855	78	766	44
+44	Fulvio	Amato		ubianco@bellini.com	Strada Lombardi 855	78	1016	44
+44	Fulvio	Amato		ubianco@bellini.com	Strada Lombardi 855	78	1017	44
+44	Fulvio	Amato		ubianco@bellini.com	Strada Lombardi 855	78	1259	44
