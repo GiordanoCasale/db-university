@@ -1175,3 +1175,33 @@ WHERE `teachers`.`id`= 44:
 44	Fulvio	Amato		ubianco@bellini.com	Strada Lombardi 855	78	1016	44
 44	Fulvio	Amato		ubianco@bellini.com	Strada Lombardi 855	78	1017	44
 44	Fulvio	Amato		ubianco@bellini.com	Strada Lombardi 855	78	1259	44
+
+
+ESERCIZIO 4, SELECT *
+FROM `students`
+JOIN `degrees` ON `students`.`degree_id`= `degrees`.`id`
+JOIN `departments` ON `degrees`. `department_id`= `departments`.`id`
+ORDER BY `students`.`surname`,`students`.`name`:
+
+3649	1	Joshua	Amato	1975-03-30	NPMSIT57N36Y340N	2018-08-11	623681	russo.nunzia@esposito.com	1	1	Corso di Laurea in Biologia	triennale	Contrada Galli 289 Piano 5	biologia@uni.it	www.biologia.uni.it
+4723	4	Kociss	Amato	1991-11-27	MCJRVQ42B03H335Z	2019-12-14	624755	maristella.derosa@hotmail.com	4	1	Corso di Laurea in Scienze naturali	triennale	Rotonda Ferri 4 Piano 2	scienze-naturali@uni.it	www.scienze-naturali.uni.it
+4206	10	Loris	Amato	2002-02-19	MKHFGL82H42Q129I	2019-05-22	624238	morgana.morelli@hotmail.com	10	1	Corso di Laurea Magistrale in Scienze della natura	magistrale	Strada Negri 323	scienze-della-natura@uni.it	www.scienze-della-natura.uni.it
+2228	2	Luigi	Amato	1985-06-04	KOTHAC01O85D593X	2020-11-28	622260	pacifico27@parisi.org	2	1	Corso di Laurea in Biologia molecolare	triennale	Incrocio Fabbri 3	biologia-molecolare@uni.it	www.biologia-molecolare.uni.it
+672	58	Manfredi	Amato	1985-12-17	SLQTGY48W17F724V	2021-05-27	620704	piras.graziano@ferrari.com	58	10	Corso di Laurea in Diritto dell'Economia	triennale	Strada Miriana 2 Appartamento 06	diritto-delleconomia@uni.it	www.diritto-delleconomia.uni.it
+4593	49	Nazzareno	Amato	1996-07-02	QFXVSH06V60Y231W	2019-06-25	624625	yago66@ricci.it	49	8	Corso di Laurea Magistrale in Chimica	magistrale	Strada Soriana 951	chimica@uni.it	www.chimica.uni.it
+432	52	Neri	Amato	1974-09-18	LPJDOM43C66D593Z	2019-05-26	620464	valentini.bortolo@giordano.com	52	8	Corso di Laurea Magistrale in Scienze e Tecnologie per l'Ambiente	magistrale	Rotonda Ferrari 38	scienze-e-tecnologie-per-lambiente@uni.it	www.scienze-e-tecnologie-per-lambiente.uni.it
+1706	21	Osvaldo	Amato	1979-07-22	BTMWVW15K43Z325M	2019-11-03	621738	caputo.clea@silvestri.com	21	4	Corso di Laurea in Ingegneria Biomedica	triennale	Rotonda Piras 93 Appartamento 04	ingegneria-biomedica@uni.it	www.ingegneria-biomedica.uni.it
+3933	64	Rita	Amato	2001-05-10	TFJDDO18C03M216P	2020-09-10	623965	esanna@libero.it	64	10	Corso di Laurea Magistrale in Relazioni Internazionali e Diplomazia	magistrale	Incrocio Milani 70 Appartamento 93	relazioni-internazionali-e-diplomazia@uni.it	www.relazioni-internazionali-e-diplomazia.uni.it
+4674	21	Ruth	Amato	1981-10-17	EIMSKW54A23D437N	2020-05-24	624706	gianriccardo06@gmail.com	21	4	Corso di Laurea in Ingegneria Biomedica	triennale	Rotonda Piras 93 Appartamento 04	ingegneria-biomedica@uni.it	www.ingegneria-biomedica.uni.it
+1308	38	Ruth	Amato	1986-02-03	ZZHWVY74G68C988G	2020-08-26	621340	helga.montanari@libero.it	38	7	Corso di Laurea in Educazione Professionale	triennale	Rotonda Davis 720	educazione-professionale@uni.it	www.educazione-professionale.uni.it
+1035	11	Samuel	Amato	1973-10-07	SOVZHT94J85X156B	2020-08-11	621067	coppola.kociss@yahoo.com	11	2	Corso di Laurea in Astronomia	triennale	Rotonda De Santis 61	astronomia@uni.it	www.astronomia.uni.it
+3678	31	Terzo	Amato	1997-09-26	KLDSAS82X26W578D	2019-06-28	623710	gianmarco22@negri.net	31	5	Corso di Laurea Magistrale in Informatica	magistrale	Incrocio Eustachio 253 Appartamento 90	informatica@uni.it	www.informatica.uni.it
+4572	35	Ursula	Amato	1984-08-22	ZZIUKC77L95W498L	2020-03-04	624604	arcibaldo.desantis@gmail.com	35	6	Corso di Laurea in Tecniche di Radiologia Medica	triennale	Piazza Artes 317	tecniche-di-radiologia-medica@uni.it	www.tecniche-di-radiologia-medica.uni.it
+1991	34	Ursula	Amato	1997-09-20	ZPHIFG75Q15R492F	2021-05-19	622023	concetta.costa@vitali.com	34	6	Corso di Laurea in Tecniche di Laboratorio Biomedico	triennale	Rotonda Fernando 68 Appartamento 67	tecniche-di-laboratorio-biomedico@uni.it	www.tecniche-di-laboratorio-biomedico.uni.it
+446	19	Vienna	Amato	1999-05-24	TJKUVT75W72M851H	2020-12-13	620478	mariapia.barbieri@caputo.com	19	4	Corso di Laurea in Ingegneria dell'Informazione	triennale	Piazza De Santis 425	ingegneria-dellinformazione@uni.it	www.ingegneria-dellinformazione.uni.it
+2476	7	Violante	Amato	1978-12-01	WEABMT00X98V325E	2019-06-20	622508	costantino.basile@negri.com	7	1	Corso di Laurea Magistrale in Biologia molecolare	magistrale	Strada Armando 86 Piano 9	biologia-molecolare@uni.it	www.biologia-molecolare.uni.it
+1402	20	Aaron	Barbieri	1976-07-29	HBZGBK78T72N870U	2018-12-10	621434	muzio.marino@gmail.com	20	4	Corso di Laurea in Ingegneria Informatica	triennale	Rotonda Clodovea 112 Appartamento 44	ingegneria-informatica@uni.it	www.ingegneria-informatica.uni.it
+2924	55	Abramo	Barbieri	1987-11-29	HAIGOE95G29Z748I	2018-06-21	622956	gallo.antonio@grasso.net	55	9	Corso di Laurea Magistrale in Economics and Finance	magistrale	Strada Sanna 652	economics-and-finance@uni.it	www.economics-and-finance.uni.it
+3188	43	Albino	Barbieri	1972-09-05	LMZRPC11Q44J392N	2019-02-22	623220	ferrara.cosetta@gmail.com	43	7	Corso di Laurea in Tecniche di Neurofisiopatologia	triennale	Incrocio Bibiana 32	tecniche-di-neurofisiopatologia@uni.it	www.tecniche-di-neurofisiopatologia.uni.it
+4204	50	Benedetta	Barbieri	1971-12-03	RFCOOG73I95N859F	2020-05-19	624236	coppola.osvaldo@yahoo.com	50	8	Corso di Laurea Magistrale in Chimica Industriale	magistrale	Incrocio Gatti 16	chimica-industriale@uni.it	www.chimica-industriale.uni.it
+
