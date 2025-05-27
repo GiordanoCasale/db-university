@@ -1205,3 +1205,32 @@ ORDER BY `students`.`surname`,`students`.`name`:
 3188	43	Albino	Barbieri	1972-09-05	LMZRPC11Q44J392N	2019-02-22	623220	ferrara.cosetta@gmail.com	43	7	Corso di Laurea in Tecniche di Neurofisiopatologia	triennale	Incrocio Bibiana 32	tecniche-di-neurofisiopatologia@uni.it	www.tecniche-di-neurofisiopatologia.uni.it
 4204	50	Benedetta	Barbieri	1971-12-03	RFCOOG73I95N859F	2020-05-19	624236	coppola.osvaldo@yahoo.com	50	8	Corso di Laurea Magistrale in Chimica Industriale	magistrale	Incrocio Gatti 16	chimica-industriale@uni.it	www.chimica-industriale.uni.it
 
+
+
+
+ESERCIZIO 5, SELECT degrees.name AS corso_di_laurea, courses.name AS corso, teachers.name, teachers.surname
+FROM degrees
+JOIN courses ON courses.degree_id = degrees.id
+JOIN course_teacher ON courses.id = course_teacher.course_id
+JOIN teachers ON course_teacher.teacher_id = teachers.id;:
+Corso di Laurea Magistrale in Biologia marina	corporis consequatur labore	Artemide	Rizzi
+Corso di Laurea in Ingegneria Civile	est ratione qui	Artemide	Rizzi
+Corso di Laurea in Logopedia	eligendi aut vel	Artemide	Rizzi
+Corso di Laurea Magistrale in Chimica	voluptatem fuga incidunt	Artemide	Rizzi
+Corso di Laurea in Economia	omnis culpa voluptatem	Artemide	Rizzi
+Corso di Laurea Magistrale in Innovazione e Servizio Sociale	nobis vitae reprehenderit	Artemide	Rizzi
+Corso di Laurea Magistrale in Lingue Moderne per la Comunicazione e la Cooperazione Internazionale	saepe quod id	Artemide	Rizzi
+Corso di Laurea in Biologia molecolare	aut consequatur sit	Gianantonio	Battaglia
+Corso di Laurea in Ingegneria per l'Ambiente e il Territorio	laudantium sunt consequatur	Gianantonio	Battaglia
+Corso di Laurea in Ingegneria Elettronica	corrupti enim praesentium	Gianantonio	Battaglia
+Corso di Laurea Magistrale in Bioingegneria	architecto id cum	Gianantonio	Battaglia
+Corso di Laurea in Infermieristica	rerum reiciendis quam	Gianantonio	Battaglia
+Corso di Laurea in Tecniche di Laboratorio Biomedico	eius animi atque	Gianantonio	Battaglia
+Corso di Laurea in Educazione Professionale	similique id non	Gianantonio	Battaglia
+Corso di Laurea in Fisioterapia	et in aspernatur	Gianantonio	Battaglia
+Corso di Laurea in Lettere	facilis magnam rem	Gianantonio	Battaglia
+Corso di Laurea in Ingegneria dell'Informazione	placeat mollitia atque	Erminia	Gatti
+Corso di Laurea in Ingegneria Elettronica	officia dolor a	Erminia	Gatti
+Corso di Laurea in Fisioterapia	officia nam pariatur	Erminia	Gatti
+Corso di Laurea in Tecniche di Neurofisiopatologia	illum est ea	Erminia	Gatti
+
