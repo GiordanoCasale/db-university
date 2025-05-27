@@ -1055,4 +1055,18 @@ ORDER BY exam_id;:
 
 
 
-ESERCIZIO 4,:
+ESERCIZIO 4, SELECT `department_id`, COUNT(*) as `count`
+FROM `degrees`
+GROUP BY `department_id`:
+1	10
+2	4
+3	4
+4	9
+5	4
+6	6
+7	7
+8	8
+9	5
+10	8
+11	3
+12	7
